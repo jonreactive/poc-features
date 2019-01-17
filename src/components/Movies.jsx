@@ -23,8 +23,11 @@ class Movies extends Component {
           <tr>
             <td>{movie.title}</td>
             <td>{movie.genre.name}</td>
+            <td>{movie.numberInStock}</td>
             <td>{movie.dailyRentalRate}</td>
-            <td><button className="btn btn-danger btn-sm">Delete</button></td>
+            <td>
+              <button className="btn btn-danger btn-sm">Delete</button>
+            </td>
           </tr>
       ))}
 
