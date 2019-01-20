@@ -6,7 +6,6 @@ class App extends Component {
   render() {
     return (
       <main className="container">
-        <h1>test bootstrap</h1>
         <Movies />
       </main>
     );
